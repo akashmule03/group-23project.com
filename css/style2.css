@@ -1,0 +1,136 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+header{
+	background-color: #7cffcb;
+    width: 100%;
+    height: 100vh;
+    /* background: rgb(33,146,225);
+    background: linear-gradient(130deg, rgba(33,146,225,1) 56%, rgba(255,255,255,1) 100%); */
+    background: rgb(2,0,36);
+    background: linear-gradient(333deg, rgba(2,0,36,1) 19%, rgba(32,44,68,1) 100%);
+ }
+
+.navbar{
+    color: white!important;
+}
+.navbar-brand{
+    color: white!important;
+}
+.nav-link{
+    color: white!important;
+    padding-right: 12px!important;
+    padding-left: 12px!important;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+.home-content{
+    margin-top: 5%;
+}
+.written-content{
+    /* border: 2px solid grey; */
+    padding: 90px 40px;
+}  
+.home-btn{
+    border: none;
+    box-shadow: 0 0 5px 0 whitesmoke;
+    color: white;
+    border-radius: 4px;
+    background-color: black;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    margin: 3px;
+}
+.home-btn:hover{
+    color: black;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+/*===========       PAGE - ABOUT US      ===================*/
+
+.page-about{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.p-abt-heading{
+  padding-bottom: 60px;
+}
+
+.abt-outer{
+    /*border: 2px solid red;*/
+}
+
+.abt-box{
+    border: 8px solid  #1CA3EC;
+    border-radius: 0 0 40px 0;
+    width: 90%;
+    /*background-color: pink;*/
+    box-shadow: 0 0 10px 0 grey;
+    transition: all 0.3s ease-in-out;
+}
+
+.abt-box:hover{
+    /*box-shadow: none;*/
+    border: 8px solid white;
+    background-color: #1CA3EC;
+    transform: translateY(-15px);
+    transition: all 0.3s ease-in-out;
+}
+.abt-box:hover .abt-icon1{
+    background-color:white;
+    color: #1CA3EC;
+     border: 4px solid #1CA3EC;
+    transition: all 0.3s ease-in-out;
+}
+.abt-box:hover .abt-text p{
+    color: white;
+    transition: all 0.3s ease-in-out;
+    /*border: 2px solid white;*/
+}
+.abt-text{
+    /*border: 2px solid red;*/
+    margin: 20px;
+}
+.abt-text{
+    text-align: center;
+}
+
+.abt-icon{
+    /*border: 2px solid black;*/
+}
+
+.abt-icon1{
+    /*border: 2px solid green;*/
+	font-size: 34px;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #1CA3EC;
+    color: white;
+    box-shadow: 0 0 10px 0 black;
+    border: 4px solid white;
+    transition: all 0.5s ease-in-out!important;
+}
+
+.abt-box1:hover .abt-icon1{
+    transform: rotateY(180deg);
+    transition: all 0.5s ease-in-out!important;
+}
+
+p{
+    text-align: justify-all;
+}
+
+.abt-text h4{
+	padding: 20px;
+	padding-top: 25px;
+	font-weight: bold;
+	font-size: 26px;
+}
